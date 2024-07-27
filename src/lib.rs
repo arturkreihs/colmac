@@ -13,7 +13,7 @@ use pnet::packet::ethernet::EtherTypes;
 use pnet::packet::ethernet::EthernetPacket;
 use pnet::packet::ethernet::MutableEthernetPacket;
 use pnet::packet::Packet;
-use pnet::util::MacAddr;
+pub use pnet::util::MacAddr;
 use std::net::Ipv4Addr;
 use std::time::{Duration, Instant};
 
